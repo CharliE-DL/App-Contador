@@ -1,42 +1,85 @@
-# App Contador - Desarrollo Completado
+# App Contador - Aplicación Web con Estilo Accenture
 
-## ✅ Funcionalidades Implementadas
+Una aplicación de contador web elegante y responsive con el look and feel corporativo de Accenture.com.
 
-1. **Contador con botones de sumar y restar** - Funcionalidad completa
-2. **El contador no puede bajar de cero** - Validación implementada
-3. **Botón de reiniciar** - Funcionalidad completa  
-4. **Look and feel similar a accenture.com** - Diseño inspirado en Accenture
+## 🚀 Demo
 
-## 🎨 Características del Diseño
+Puedes ver la aplicación en vivo en: [GitHub Pages](https://[usuario].github.io/App-Contador/)
 
-- **Paleta de colores de Accenture**: Rojo corporativo (#A100FF), negro, blanco
-- **Diseño responsive**: Funciona en móvil y escritorio
-- **Animaciones suaves**: Efectos al incrementar/decrementar/reiniciar
-- **Interfaz limpia y profesional**: Estilo corporativo moderno
+## ✨ Características
 
-## 📁 Archivos
+- **Contador funcional** con botones de incrementar, decrementar y reiniciar
+- **Validación inteligente**: No permite valores negativos
+- **Diseño inspirado en Accenture**: Paleta de colores corporativos (#A100FF)
+- **Totalmente responsive**: Funciona perfectamente en móvil y escritorio
+- **Animaciones suaves**: Efectos visuales al interactuar con el contador
+- **Sin dependencias**: Código vanilla HTML, CSS y JavaScript
 
-- `index.html` - Aplicación completa autocontenida (HTML + CSS + JS)
+## 🎨 Look and Feel
 
-## 🚀 Para Publicar en GitHub Pages
+La aplicación utiliza la estética corporativa de Accenture:
+- Color principal: #A100FF (rojo Accenture)
+- Diseño limpio y profesional
+- Tipografía moderna y legible
+- Efectos de hover y transiciones suaves
 
-1. Subir el archivo `index.html` a la carpeta `proyectos/app-contador/` del repositorio
-2. GitHub Pages publicará automáticamente en:
-   `https://ctarancon.github.io/Tramitador/proyectos/app-contador/`
+## 📦 Instalación y Uso
+
+### Opción 1: GitHub Pages (Recomendado)
+1. Clona este repositorio
+2. Sube los archivos a GitHub
+3. Activa GitHub Pages en la configuración del repositorio
+4. La aplicación estará disponible en `https://[usuario].github.io/App-Contador/`
+
+### Opción 2: Local
+1. Descarga o clona el repositorio
+2. Abre el archivo `index.html` en tu navegador
+3. ¡Listo! La aplicación funciona sin necesidad de servidor
+
+## 🛠️ Tecnologías
+
+- **HTML5**: Estructura semántica
+- **CSS3**: Estilos modernos con variables CSS y Grid/Flexbox
+- **JavaScript Vanilla**: Funcionalidad sin frameworks
+- **Diseño Responsive**: Media queries para adaptabilidad
+
+## 📁 Estructura del Proyecto
+
+```
+App-Contador/
+├── index.html          # Aplicación principal (HTML + CSS + JS)
+├── README.md           # Documentación del proyecto
+├── airtable-record.json # Metadatos de desarrollo
+└── resumen-desarrollo.md # Resumen técnico
+```
+
+## 👥 Desarrollo
+
+**Desarrollado por**: Bruno - Programador Senior L10 de Accenture España
+**Supervisado por**: Diego - Programador Junior L12
+**Fecha de entrega**: 2026-04-06
+**Versión**: v1.0
 
 ## 📋 Criterios de Aceptación Cumplidos
 
-- [x] Contador numérico funcional
-- [x] Botón '+' incrementa el valor
-- [x] Botón '-' decrementa el valor (no baja de 0)
-- [x] Botón '↺' reinicia a 0
-- [x] Diseño inspirado en accenture.com
-- [x] Código limpio y comentado
-- [x] Responsive design
-- [x] Sin dependencias externas
+- ✅ Contador numérico completamente funcional
+- ✅ Botón '+' incrementa el valor correctamente
+- ✅ Botón '-' decrementa el valor (con validación para no bajar de 0)
+- ✅ Botón '↺' reinicia el contador a 0
+- ✅ Diseño inspirado en accenture.com con paleta corporativa
+- ✅ Código limpio, comentado y bien estructurado
+- ✅ Diseño responsive que funciona en todos los dispositivos
+- ✅ Zero dependencies - solo vanilla web technologies
+- ✅ Animaciones suaves y experiencia de usuario mejorada
 
-## 👨‍💻 Desarrollo
+## 🌐 Compatibilidad
 
-**Por**: Bruno - Programador Senior L10
-**Fecha**: 2026-04-06
-**Iteración**: v1
+La aplicación es compatible con todos los navegadores modernos:
+- Chrome 60+
+- Firefox 55+
+- Safari 12+
+- Edge 79+
+
+## 📄 Licencia
+
+Este proyecto es parte del desarrollo interno de Accenture España.
